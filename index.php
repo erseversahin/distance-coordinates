@@ -20,5 +20,3 @@ echo "<br><br>";
 echo $Distance->distance($lat1,$lon1,$lat2,$lon2)->mile();
 echo "<br><br>";
 echo $Distance->distance($lat1,$lon1,$lat2,$lon2)->meter();
-
-
