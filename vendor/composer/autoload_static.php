@@ -16,8 +16,12 @@ class ComposerStaticInit44191badee4f3b9ff514e74a56b5bcbf
     public static $prefixDirsPsr4 = array (
         'CalcCoordinate\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/',
+            0 => __DIR__ . '/../..' . '/src',
         ),
+    );
+
+    public static $classMap = array (
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -25,6 +29,7 @@ class ComposerStaticInit44191badee4f3b9ff514e74a56b5bcbf
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit44191badee4f3b9ff514e74a56b5bcbf::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit44191badee4f3b9ff514e74a56b5bcbf::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit44191badee4f3b9ff514e74a56b5bcbf::$classMap;
 
         }, null, ClassLoader::class);
     }

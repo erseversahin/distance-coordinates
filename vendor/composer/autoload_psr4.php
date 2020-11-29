@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'CalcCoordinate\\' => array($baseDir . '/'),
+    'CalcCoordinate\\' => array($baseDir . '/src'),
 );
