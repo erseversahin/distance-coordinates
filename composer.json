@@ -1,0 +1,18 @@
+{
+    "name": "sahinersever/distance-coordinates",
+    "description": "This class calculating distance between two coordinates.",
+    "type": "plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CalcCoordinate\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sahin ERSEVER",
+            "email": "info@stebilisim.com"
+        }
+    ],
+    "require": {}
+}
