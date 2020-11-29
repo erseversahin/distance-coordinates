@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '8031965c4e3ba8bbe28287f522e742b02377fb43',
+    'reference' => '84a1b9c8172e99b61e8c90b31c60c5ca6ad3f875',
     'name' => 'sahinersever/distance-coordinates',
   ),
   'versions' => 
@@ -31,7 +31,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '8031965c4e3ba8bbe28287f522e742b02377fb43',
+      'reference' => '84a1b9c8172e99b61e8c90b31c60c5ca6ad3f875',
     ),
   ),
 );
